@@ -1,0 +1,125 @@
+/* Resetting default margins and paddings */
+body, h1, h2, h3, p, input, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* App container */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header styles */
+.header {
+  background-color: #4CAF50;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* MainContent styles */
+main {
+  margin-top: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.inlineLetters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.inlineLetters h3 {
+  cursor: pointer;
+  font-size: 18px;
+  color: #333;
+}
+
+.inlineLetters h3:hover {
+  text-decoration: underline;
+  color: #4CAF50;
+}
+
+.results-container {
+  margin-top: 10px;
+}
+
+.result {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.result:hover {
+  background-color: #e0e0e0;
+}
+
+.definition-container {
+  margin-top: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.multiple-definitions {
+  margin-top: 10px;
+}
+
+.multiple-definition {
+  padding: 10px;
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+.not-found {
+  color: #f44336;
+  text-align: center;
+}
+
